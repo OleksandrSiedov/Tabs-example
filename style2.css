@@ -1,0 +1,16 @@
+.tabs {
+  display: flex;
+  position: relative;
+}
+
+.tab-content {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  border: 1px solid red;
+}
+
+:checked~.tab-content {
+  display: block;
+}
